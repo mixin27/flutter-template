@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:template/env/app_env.dart';
 import 'package:template/src/features/counter/counter.dart';
 
 class CounterPage extends HookConsumerWidget {
@@ -18,6 +19,13 @@ class CounterPage extends HookConsumerWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Text(
+              'Environment:',
+            ),
+            Text(
+              EnvInfo.envName,
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
