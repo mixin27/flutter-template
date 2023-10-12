@@ -69,3 +69,36 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+# Flavoring
+flavors:
+  prod:
+    app:
+      name: "Ecommerce"
+
+    android:
+      applicationId: "com.yangonyinxaing.ecommerce"  
+    ios:
+      bundleId: "com.yangonyinxaing.ecommerce"
+    macos:
+      bundleId: "com.yangonyinxaing.ecommerce"  
+  stg:
+    app:
+      name: "[STG] Ecommerce"
+  
+    android:
+      applicationId: "com.yangonyinxaing.ecommerce.stg"
+    ios:
+      bundleId: "com.yangonyinxaing.ecommerce.stg"
+    macos:
+      bundleId: "com.yangonyinxaing.ecommerce.stg"
+  dev:
+    app:
+      name: "[DEV] Ecommerce"
+  
+    android:
+      applicationId: "com.yangonyinxaing.ecommerce.dev"
+    ios:
+      bundleId: "com.yangonyinxaing.ecommerce.dev"
+    macos:
+      bundleId: "com.yangonyinxaing.ecommerce.dev"
