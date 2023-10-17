@@ -1,0 +1,8 @@
+{
+    "@@locale": "en",
+    "appName": "Ecommerce",
+    "developerName": "Kyaw Zayar Tun",
+    "@developerName": {
+        "description": "Text shown in the application development information page"
+    }
+}
